@@ -1,0 +1,233 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+header img {
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navegación */
+nav {
+    background: #444;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Sección de Presentación */
+#presentacion {
+    background: white;
+    padding: 60px 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#presentacion h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+#presentacion p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+/* Imagen de la Empresa */
+#imagenEm {
+    background: #fff;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#imagenEm .galeria-item {
+    flex: 1 1 calc(33% - 40px);
+    margin: 20px;
+}
+
+#imagenEm img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonios */
+.testimonios {
+    background: linear-gradient(135deg, #333, #555);
+    color: #f0f0f0;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonios h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.testimonios blockquote {
+    font-size: 1.2rem;
+    margin: 20px auto;
+    max-width: 600px;
+    position: relative;
+    padding-left: 20px;
+    text-align: left;
+    color: #ccc;
+}
+
+.testimonios blockquote:before {
+    content: "“";
+    font-size: 3rem;
+    position: absolute;
+    left: 0;
+    top: -20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.testimonios cite {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+/* Formulario de Contacto */
+#formularioContacto {
+    padding: 50px 20px;
+    background: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#formularioContacto h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+#formularioContacto label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#formularioContacto input,
+#formularioContacto textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formularioContacto input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#formularioContacto input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Mapa */
+#mapa-container {
+    padding: 50px;
+    background: white;
+    text-align: center;
+}
+
+#mapa-container h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Redes Sociales */
+#seccionRedesSociales {
+    background: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#seccionRedesSociales h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#seccionRedesSociales a {
+    transition: transform 0.3s;
+    margin: 0 10px;
+}
+
+#seccionRedesSociales img {
+    width: 40px;
+    height: 40px;
+}
+
+#seccionRedesSociales a:hover {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer #reloj {
+    font-size: 18px;
+}

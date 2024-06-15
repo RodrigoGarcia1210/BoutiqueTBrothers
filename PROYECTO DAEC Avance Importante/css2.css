@@ -1,0 +1,125 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Color de fondo */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem; /* Tamaño del texto */
+}
+
+/* Estilos de navegación */
+nav {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    background-color: #444; /* Color de fondo */
+    padding: 10px 0; /* Espaciado interno */
+}
+
+nav a {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    margin: 0 15px; /* Margen horizontal */
+    padding: 10px; /* Espaciado interno */
+    transition: background 0.3s; /* Transición suave */
+}
+
+nav a:hover {
+    background-color: #555; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilos del contenedor de autos */
+#car-container {
+    display: flex;
+    flex-wrap: wrap; /* Envoltura de elementos */
+    justify-content: center; /* Centrado horizontal */
+    padding: 20px; /* Espaciado interno */
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+
+/* Estilos de la tarjeta de auto */
+.car-card {
+    background-color: #fff; /* Color de fondo */
+    border: 1px solid #ddd; /* Borde sólido */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Ocultar desbordamiento */
+    width: 300px; /* Ancho fijo para consistencia */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.2s; /* Transición suave */
+}
+
+.car-card:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+/* Estilos de la imagen del auto */
+.car-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos de los detalles del auto */
+.car-details {
+    padding: 15px; /* Espaciado interno */
+}
+
+.car-details h2 {
+    margin: 0 0 10px; /* Margen inferior */
+    font-size: 1.2rem; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+}
+
+.car-details p {
+    margin: 5px 0; /* Margen superior e inferior */
+    color: #666; /* Color del texto */
+    font-size: 0.9rem; /* Tamaño del texto */
+}
+
+.car-details button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px; /* Margen superior */
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de apuntar */
+    transition: background 0.3s; /* Transición suave */
+}
+
+.car-details button:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #222; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    padding: 20px 0; /* Espaciado interno */
+    display: flex; /* Contenedor flexible */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    flex-direction: column; /* Alineación en columna */
+    gap: 10px; /* Espacio entre elementos */
+}
+
+footer p {
+    margin: 0; /* Sin margen */
+}
+
+footer #reloj {
+    font-size: 18px; /* Tamaño del texto */
+}
